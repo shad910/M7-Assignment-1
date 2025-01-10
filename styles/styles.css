@@ -22,6 +22,15 @@ background: rgb(0, 106, 80);
 cursor: pointer;
 }
 
+.description{
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 /* nav Section */
 header nav{
     padding: 19px 128px;
@@ -99,6 +108,47 @@ header nav>button{
 .hero-container .hero-image img{
     width: 100%;
     object-fit: cover;
+}
+
+/* Pillars Section */
+.pillars{
+    width: 1024px;
+    height: 259px;
+    margin: 64px 128px;
+}
+.pillars>h1{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: rgb(14, 14, 14);
+    margin-bottom: 16px;
+}
+.card-container .card{
+    width: 240px;
+    height: 194px;
+    padding: 19px;
+    margin: 0 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 19px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+}
+.card-container{
+    display: flex;
+}
+.card-container .card-head{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.8);
 }
 
 /* Footer Section */
