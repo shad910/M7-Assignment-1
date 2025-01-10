@@ -1,0 +1,109 @@
+/* Font Section  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(245, 245, 245);
+}
+
+/* Shared Style */
+.btn{
+width: 216px;
+height: 44px;
+padding: 13px 27px;
+margin: 19px 0px;
+border-radius: 8px;
+border: none;
+color: rgb(255, 255, 255);
+background: rgb(0, 106, 80);
+cursor: pointer;
+}
+
+/* nav Section */
+header nav{
+    padding: 19px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(245, 245, 245);
+}
+header nav h1{
+    font-family: Fira Sans;
+    color: rgb(14, 14, 14);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+header nav>button{
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    padding: 12px 24px;
+    margin: 0px 8px;
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    
+
+}
+
+/* Hero Section */
+#hero{
+    width: 1024px;
+    height: 448px;
+    margin: 0 128px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+   
+}
+#hero .hero-container{
+    padding: 64px 80px;
+    border-radius: 20px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.hero-content{
+    width: 497px;
+    height: 260px;
+    gap: 19px;
+}
+#hero .hero-content .title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+}
+#hero .hero-content .subtitle{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+}
+.hero-container .hero-image{
+    width: 380;   
+}
+.hero-container .hero-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer Section */
+footer{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
