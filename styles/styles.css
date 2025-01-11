@@ -25,6 +25,11 @@ body{
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-one:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 106, 80);
 }
 .btn-two{
     width: 97px;
@@ -41,12 +46,25 @@ body{
     color: rgb(255, 255, 255);
     background: rgb(84, 144, 245);
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-two:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(84, 144, 245);
 }
 .btn-three{
     background: rgb(9, 161, 92);
 }
+.btn-three:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 161, 92);
+}
 .btn-four{
     background: rgb(255, 194, 57);
+}
+.btn-four:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 194, 57);
 }
 .btn-five{
     width: 111px;
@@ -63,6 +81,10 @@ body{
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+.btn-five:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 .btn-six{
     width: auto;
@@ -79,6 +101,10 @@ body{
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+.btn-six:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 .heading{
     font-family: Fira Sans;
@@ -119,6 +145,10 @@ header nav>button{
     color: rgb(0, 106, 80);
     border: 1px solid rgb(0, 106, 80);
     cursor: pointer;
+}
+nav>button:hover {
+background-color: rgb(9, 161, 92);
+color: rgb(255, 255, 255);
 }
 
 /* Hero Section */
@@ -187,6 +217,10 @@ header nav>button{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 12px;
     background: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.1);
 }
 .card-container{
     display: flex;
@@ -225,6 +259,10 @@ header nav>button{
     gap: 19px;
     border-radius: 12px;
     background: rgba(84, 144, 245, 0.2);
+    transition: transform 0.3s ease;
+}
+.v-card:hover {
+    transform: scale(1.1);
 }
 .v-card-container .v-card-sec{
     background: rgb(198, 228, 214);
@@ -322,6 +360,7 @@ header nav>button{
     border-radius: 19px;
     background: rgb(255, 255, 255);
 }
+
 .rn-image-box img{
     width: 326px;
     height: 244px;
@@ -352,10 +391,10 @@ header nav>button{
     text-align: left;
     color: rgba(14, 14, 14, 0.7);
 }
+
 /* Donate Section */
 #donate-section{
     width: 1024px;
-    /* height: 371PX; */
     margin: 64px 128px; 
 }
 #donate-section>h1{
@@ -391,9 +430,16 @@ header nav>button{
     color: rgba(14, 14, 14, 0.8);
     background: rgb(255, 255, 255);
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 .donate .amount-color{
     background: rgb(198, 228, 214);
+}
+.amount:hover {
+    background-color: rgb(198, 228, 214);
+}
+.amount-color:hover {
+    background-color: skyblue;
 }
 .other-amount{
     display: flex;
@@ -422,36 +468,44 @@ header nav>button{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 /* Newsletter Section */
-#news-later{
-    width: 1024;
+#news-later .news-later-container{
+    width: 870px;
     padding: 64px 80px;
-    margin: 64px 0px;
-}
-.news-later-container{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-    border-radius: 19px;
-    margin: 19px;
+    margin: 64px auto;
     background: rgb(198, 228, 214);
+    border-radius: 19px;
 }
 .news-later-container > h1{
     margin: 5px 0 0 0;
 }
-news-later-content{
-    text-align: center;
+.news-later-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 19px;
+}
+.in-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.news-later-input{
+    display: flex;
 }
 .news-later-input input{
     width: 480px;
     padding: 14px 32px;
+    padding-right: 10px;
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
-    border: none;
+    border-right: none;
 }
 .in-btn{
     border-radius: 0px 8px 8px 0px;
@@ -462,9 +516,13 @@ news-later-content{
     font-weight: 600;
     line-height: 17px;
     text-align: left;
-    border: none;
+    border-left: none;
     padding: 13px 27px;
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+.in-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 /* Footer Section */
