@@ -10,25 +10,51 @@ body{
 }
 
 /* Shared Style */
-.btn{
-width: 216px;
-height: 44px;
-padding: 13px 27px;
-margin: 19px 0px;
-border-radius: 8px;
-border: none;
-color: rgb(255, 255, 255);
-background: rgb(0, 106, 80);
-cursor: pointer;
+.btn-one{
+    width: 216px;
+    height: 44px;
+    padding: 13px 27px;
+    margin: 19px 0px;
+    border-radius: 8px;
+    border: none;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    cursor: pointer;
 }
-
-.description{
+.btn-two{
+    width: 97px;
+    height: 32px;
+    padding: 8px 16px;
+    margin: 19px 0px;
+    border-radius: 6px;
+    border: none;
     font-family: Fira Sans;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 19px;
+    font-weight: 600;
+    line-height: 15px;
     text-align: left;
-    color: rgba(14, 14, 14, 0.7);
+    color: rgb(255, 255, 255);
+    background: rgb(84, 144, 245);
+}
+.btn-three{
+    background: rgb(9, 161, 92);
+}
+.btn-four{
+    background: rgb(255, 194, 57);
+}
+.heading{
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: rgb(14, 14, 14);
+    margin-bottom: 16px;
 }
 
 /* nav Section */
@@ -109,19 +135,10 @@ header nav>button{
 }
 
 /* Pillars Section */
-.pillars{
+#pillars{
     width: 1024px;
     height: 259px;
     margin: 64px 128px;
-}
-.pillars>h1{
-    font-family: Fira Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    text-align: left;
-    color: rgb(14, 14, 14);
-    margin-bottom: 16px;
 }
 .card-container .card{
     width: 240px;
@@ -147,6 +164,62 @@ header nav>button{
     line-height: 19px;
     text-align: left;
     color: rgba(14, 14, 14, 0.8);
+}
+.pillars-description{
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Section */
+#visions{
+    width: 1024px;
+    margin: 64px 128px;
+}
+.v-card-container .v-card{
+    width: 328px;
+    height: 260px;
+    padding: 25px;
+    margin: 0px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 19px;
+    border-radius: 12px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.v-card-container .v-card-sec{
+    background: rgb(198, 228, 214);
+}
+.v-card-container .v-card-thi{
+    background: rgb(247, 235, 207);
+}
+.v-card-container{
+    display: flex;
+    margin-bottom: 25px;
+}
+.v-head{
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-description{
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
+}
+.space{
+    margin-bottom: 25px;
 }
 
 /* Footer Section */
