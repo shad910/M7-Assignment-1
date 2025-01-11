@@ -62,7 +62,23 @@ body{
     border-radius: 8px;
     color: rgb(255, 255, 255);
     background: rgb(0, 106, 80);
-
+    cursor: pointer;
+}
+.btn-six{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin: 25px 0px;
+    border: none;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    cursor: pointer;
 }
 .heading{
     font-family: Fira Sans;
@@ -102,6 +118,7 @@ header nav>button{
     border-radius: 8px;
     color: rgb(0, 106, 80);
     border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 /* Hero Section */
@@ -335,6 +352,80 @@ header nav>button{
     text-align: left;
     color: rgba(14, 14, 14, 0.7);
 }
+/* Donate Section */
+#donate-section{
+    width: 1024px;
+    height: 371PX;
+    margin: 64px 128px; 
+}
+#donate-section>h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 0 19px 0;
+}
+.donate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 19;
+    padding: 32px;
+    margin: 25px 19px;
+}
+.donate .amount{
+    width: 192px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.donate .amount-color{
+    background: rgb(198, 228, 214);
+}
+.other-amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 99px;
+}
+.other-amount input{
+    width: 825px;
+    height: auto;
+    padding: 16px 32px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+.other-amount input{
+    text-align: center;
+}
+.btn-six-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Newsletter Section */
+
 
 /* Footer Section */
 footer{
