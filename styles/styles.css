@@ -48,6 +48,22 @@ body{
 .btn-four{
     background: rgb(255, 194, 57);
 }
+.btn-five{
+    width: 111px;
+    height: 38px;
+    padding: 10px 20px;
+    margin: 25px 0px;
+    border: none;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+
+}
 .heading{
     font-family: Fira Sans;
     font-size: 32px;
@@ -259,6 +275,65 @@ header nav>button{
     font-weight: 400;
     line-height: 19px;
     text-align: left;
+}
+
+/* Recent-News-Section */
+#recent-news-sec{
+    width: 1024px;
+    height: 1124PX;
+    margin: 64px 128px; 
+}
+#recent-news-sec>h2{
+    font-family: Fira Sans;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+#recent-news-sec .rn-container{
+    width: 1024px;
+    height: 321PX;
+}
+#recent-news-sec .rn-container .rn-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    padding: 38px;
+    margin: 19px 0px;
+    border-radius: 19px;
+    background: rgb(255, 255, 255);
+}
+.rn-image-box img{
+    width: 326px;
+    height: 244px;
+    margin-top: 38px 25px 38px 38px;
+    border-radius: 19px;
+}
+.rn-image-box-sec img{
+    width: 326px;
+    height: 244px;
+    margin: 38px 38px 38px 25px;
+    border-radius: 19px;
+}
+.channel-Logo img{
+    width: 107px;
+    height: 32px;
+    margin: 9px 0px;
+}
+.time-date{
+    display: flex;
+    gap: 9px;
+    margin:0 0 9px 0;
+}
+.time-date .time-date-p{
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;  
+    text-align: left;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 /* Footer Section */
