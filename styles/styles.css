@@ -40,6 +40,7 @@ body{
     text-align: left;
     color: rgb(255, 255, 255);
     background: rgb(84, 144, 245);
+    cursor: pointer;
 }
 .btn-three{
     background: rgb(9, 161, 92);
@@ -220,6 +221,43 @@ header nav>button{
 }
 .space{
     margin-bottom: 25px;
+}
+
+/* Quotes Section */
+.quotes{
+    padding: 38px 19px;
+    margin: 0px 19px;
+    border-radius: 12px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 18px 12px;
+.chief-adviser{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+.chief-adviser-description{
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(14, 14, 14, 0.6);
+}
+.quotes-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
 }
 
 /* Footer Section */
