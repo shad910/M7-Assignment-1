@@ -301,7 +301,7 @@ color: rgb(255, 255, 255);
     border-radius: 12px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
-    background-image: url(../assets/quote-bg.png);
+    background-image: url(../images/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 18px 12px;
 }
