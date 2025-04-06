@@ -8,7 +8,6 @@
 body {
   background: rgb(245, 245, 245);
 }
-
 header {
   width: 80%;
   margin: 0 auto;
@@ -141,7 +140,6 @@ header nav h1 {
   line-height: 30px;
   text-align: left;
 }
-
 header nav > button {
   font-family: Fira Sans;
   font-size: 14px;
@@ -215,7 +213,6 @@ nav > button:hover {
 .card:hover {
   transform: scale(1.1);
 }
-
 .card-container .card-head {
   font-family: Fira Sans;
   font-size: 16px;
@@ -703,6 +700,7 @@ footer {
     padding: 10px;
   }
 
+  /* Recent News Section */
   .rn-image-box {
     display: flex;
     align-items: center;
