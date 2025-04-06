@@ -400,8 +400,7 @@ select {
 
 /* Donate Section */
 #donate-section {
-  width: 1024px;
-  margin: 64px 128px;
+  margin: 64px 0;
 }
 #donate-section > h1 {
   color: rgb(14, 14, 14);
@@ -411,6 +410,10 @@ select {
   line-height: 38px;
   text-align: center;
   margin: 0 0 19px 0;
+}
+.Tcenter{
+  text-align: center;
+  line-height: 20px;
 }
 .donate {
   display: flex;
@@ -455,7 +458,7 @@ select {
   margin: 25px 99px;
 }
 .other-amount input {
-  width: 825px;
+  width: 95%;
   height: auto;
   padding: 16px 32px;
   color: rgba(14, 14, 14, 0.3);
@@ -478,14 +481,21 @@ select {
 
 /* Newsletter Section */
 #news-later .news-later-container {
-  width: 870px;
   padding: 64px 80px;
-  margin: 64px auto;
+  margin: 64px 0;
   background: rgb(198, 228, 214);
   border-radius: 19px;
 }
 .news-later-container > h1 {
   margin: 5px 0 0 0;
+}
+.headingSec {
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(14, 14, 14);
+  margin-bottom: 16px;
 }
 .news-later-content {
   display: flex;
@@ -619,9 +629,42 @@ footer {
     flex-direction: column;
   }
   .rn-image-box img {
-    width: 226px;
-    height: 144px;
+    width: 234px;
+    height: 152px;
     border-radius: 18px;
+  }
+
+  /* Donate Section */
+  .donate {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
+    gap: 20px;
+  }
+
+  /* Newsletter Section */
+  .news-later-input input {
+    width: 130px;
+    padding: 14px 32px;
+    padding-right: 10px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border-right: none;
+  }
+  #news-later .news-later-container {
+    padding: 44px 20px;
+    margin: 64px 0;
+    background: rgb(198, 228, 214);
+    border-radius: 19px;
+  }
+  .in-btn {
+  
+    font-size: 12px;
+    font-weight: 600;
+    border-left: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
   }
 }
 
@@ -660,9 +703,24 @@ footer {
     padding: 10px;
   }
 
+  .rn-image-box {
+    display: flex;
+    align-items: center;
+  }
   .rn-image-box img {
-    width: 300px;
-    height: 200px;
+    width: 310px;
+    height: 210px;
     border-radius: 18px;
+  }
+
+  /* Donate Section */
+  .donate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    gap: 20px;
+  }
+  .other-amount input {
+    width: 85%;
   }
 }
