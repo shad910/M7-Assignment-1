@@ -419,7 +419,7 @@ select {
   align-items: flex-start;
   gap: 19;
   padding: 32px;
-  margin: 25px 19px;
+  margin: 25px 0;
 }
 .donate .amount {
   width: 192px;
