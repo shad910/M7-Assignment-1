@@ -417,22 +417,19 @@ select {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 19;
+  gap: 18px;
   padding: 32px;
   margin: 25px 0;
 }
 .donate .amount {
-  width: 192px;
-  height: 102px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
+  text-align: center;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 12px;
+  padding: 32px;
   color: rgba(14, 14, 14, 0.8);
   background: rgb(255, 255, 255);
   cursor: pointer;
@@ -637,6 +634,12 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     justify-self: center;
     gap: 20px;
+  }
+  .other-amount {
+    margin: 0;
+  }
+  .other-amount input {
+    width: 75%;
   }
 
   /* Newsletter Section */
